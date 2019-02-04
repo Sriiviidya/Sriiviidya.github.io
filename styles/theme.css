@@ -352,7 +352,9 @@ h6, .h6 {
 .h2 ,.heading{
     color :  #eeb631;
 }
-
+.heading1{
+  color:#368887 !important;
+}
 /* work portfolio section */
 .gallery-block.grid-gallery{
     padding-bottom: 60px;
@@ -394,7 +396,7 @@ h6, .h6 {
 
 /* contact form*/
 .btnContact{
-    background-color: #eeb631;
+    background-color: #368887 !important;
     color: #fff;
 }
 
@@ -409,13 +411,18 @@ h6, .h6 {
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  color: #eeb631 !important;
+ 
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 20rem;
+  
 }
-.carousel-item > img {
+
+
+/*.carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -2212,6 +2219,14 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   list-style: none; }
 
+  .scrolled {
+    background-color:rgba(238,182,49,0.9) !important ;
+    /*transition: background-color 200ms linear;*/
+  }
+  #navbarWork{
+    background-color: rgba(238,182,49,0.9)!important;
+  }
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem; }
@@ -3663,11 +3678,25 @@ button.close {
   width: 20px;
   height: 20px;
   background: transparent no-repeat center center;
-  background-size: 100% 100%; }
+  background-size: 100% 100%;
+  background-image: none;
+}
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); }
 
+  .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #368887;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #368887;
+}
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
 
@@ -3747,8 +3776,9 @@ background-color: #eeb631 !important;
  }
 /*  cover section background gradient*/
  .gradient{
-  background-color: #eeb631 !important;
- /* background-image: linear-gradient(to top right, #fae9c2, #eeb631)*/
+  /*background-color: #eeb631 !important;*/
+ background-image: linear-gradient(to top right, #eeb631 ,#368887);
+ opacity: 0.85;
  }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -3805,7 +3835,9 @@ button.bg-light:focus {
   background-color: #d5d5d5 !important; }
 
 .bg-dark {
-  background-color: #353535 !important; }
+  /*background-color: #353535 !important; */
+  background-color: #368887 !important;
+}
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
