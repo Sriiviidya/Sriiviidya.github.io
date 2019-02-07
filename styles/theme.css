@@ -357,11 +357,14 @@ h6, .h6 {
 letter-spacing: 2rem;
 }
   
+/* introduction*/
+@media (max-width:700px){
+   .intro,p{
+     font-size: 1rem !important;
+   }
+  }
 
 
-.heading1{
-  color:#368887 !important;
-}
 /* work portfolio section */
 .gallery-block.grid-gallery{
     padding-bottom: 4rem;
@@ -394,6 +397,13 @@ letter-spacing: 2rem;
     margin-bottom: 20px;
   }
 
+  @media (max-width: 576px) {
+
+    .gallery-block.grid-gallery .scale-on-hover:hover{
+      transform: scale(1.05);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+    }
+  }
   @media (min-width: 576px) {
 
     .gallery-block.grid-gallery .scale-on-hover:hover{
@@ -409,6 +419,8 @@ letter-spacing: 2rem;
   height:auto;
   overflow: hidden;
 }
+
+
 /* contact form*/
 .btnContact{
     background-color: #368887 !important;
