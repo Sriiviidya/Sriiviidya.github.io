@@ -10,7 +10,10 @@ body,html {
       content: "";
       display:block;
   }
-  
+
+  .vh-30{
+      min-height: 30vh;
+  }
   /* helpers */
   .vh-50 {
       min-height: 50vh;

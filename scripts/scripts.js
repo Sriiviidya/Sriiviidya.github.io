@@ -6,3 +6,8 @@ $(document).ready(function(){
        });
      });
    })
+
+   function scollDown() {
+    var elmnt = document.getElementById("work");
+    elmnt.scrollIntoView();
+  }
