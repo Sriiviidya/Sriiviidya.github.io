@@ -416,7 +416,7 @@ letter-spacing: 2rem;
 /* about section*/
 .profileImage{
   width:100%;
-  height:auto;
+  height:100%;
   overflow: hidden;
 }
 
@@ -427,7 +427,7 @@ letter-spacing: 2rem;
     color: #fff;
 }
 
-/* testimonials*/
+/* testimonials
 
 @media screen and (max-width:600px){
     #testimonials{
@@ -436,6 +436,15 @@ letter-spacing: 2rem;
     #aboutMe{
         margin-bottom:5rem;
     }
+}*/
+
+.test{
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  
+ 
 }
 
 /* Carousel base class */
@@ -5736,6 +5745,9 @@ button.bg-dark:focus {
 
 .text-primary {
   color: #368887 !important; }
+.text-link{
+  color:black !important;
+}
 
 a.text-primary:hover, a.text-primary:focus {
   color: #a80b57 !important; }
