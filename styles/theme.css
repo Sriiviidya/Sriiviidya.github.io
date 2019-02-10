@@ -364,6 +364,15 @@ letter-spacing: 2rem;
    }
   }
 
+  @media(max-width:600px){
+    .section-heading{
+
+      font-size:1.5rem !important;
+    }
+
+  }
+  
+
 
 /* work portfolio section */
 .gallery-block.grid-gallery{
