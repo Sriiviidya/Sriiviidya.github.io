@@ -1741,7 +1741,9 @@ h4.package {
     float:right;
 
 }
-
+a:hover{
+    color: #000000;
+}
 
    
  @media only screen and (max-width: 768px){
