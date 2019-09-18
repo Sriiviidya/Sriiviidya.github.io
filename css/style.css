@@ -1770,7 +1770,9 @@ a:hover{
     margin: 0 0 0 30vw;
 }
 
-
+.vertical-line{
+    border-left: thin solid #841660;
+}
 
 .video-container iframe {
     position: absolute;
