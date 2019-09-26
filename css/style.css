@@ -608,6 +608,17 @@ h2.menu-item {
 .dark h2.menu-item {
     color: #333;
 }
+/* mobile video youtube*/
+@media screen and (max-width:760px){
+.mobile, iframe{
+    width:100%;
+    height: auto;
+}
+}
+
+
+
+/*  */
 
 h2.menu-item:before {
     position: absolute;
