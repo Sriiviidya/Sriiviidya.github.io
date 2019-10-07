@@ -374,6 +374,23 @@ a:not([href]):not([tabindex]) {
                         2. Home Styles
 
 -------------------------------------------------------------------*/
+.bg-dark{
+    
+    background: linear-gradient(to right, #F45C43, #EB3349) !important;
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+.nav-item{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dropdown-item{
+    font-size: 16px;
+}
+
 
 .home {
     width: 100%;
