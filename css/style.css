@@ -1845,7 +1845,7 @@ a:hover{
 }
 
 .figma{
-    height: 600;
+    height: 600 !important;
     width:auto;
    
 }
@@ -1875,9 +1875,12 @@ a:hover{
     margin-top:5vh;
    }
    .figma{
-    height:600;
+    height:600 !important;
     width:auto;
 
+}
+.blockquote{
+    font-size: 18px;
 }
 }
 @media only screen and (min-width: 1280px){
